@@ -6,9 +6,6 @@ x = input('birseyler yazin ve enter a basin: ')
 
 print(x)
 
-x = input('bir sayi giriniz: ')
+x = int(input('bir sayi giriniz: '))
 
 print('girdiginiz sayinin 2 kati: ' + str(2*x))
-
-
-

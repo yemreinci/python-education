@@ -1,0 +1,182 @@
+Burda anlatılan kavramlar çok temel. Bu yüzden metin içinde kimi kavramlar açıklanmadan önce kullanılmış olabilir. Bu durumda örnekler incelenebilir.
+
+Değişkenler:
+  Programlama dillerindeki en temel kavramlardan biri değişkenlerdir.
+  Değişkenlerin sabit bir değeri yoktur. Python'da değişkenlere değer "atanarak" (= ile ifade edilir) yeni bir değişken oluşturulabilir veya var olan bir değişkenin değeri değiştirilebilir.
+  Python'da "=" işareti "atama operatörü"dür. Eşitlik "==" ile ifade edilir.
+  Değişkenler üzerinde işlem yapılabilir, değişkenler fonksiyonlara parametre olarak verilebilir.
+  Her değişkenin belirli bir türü vardır. Python'da halihazırda değeri olan bir değişkenin değeri değiştirilebilirse, türü de değişebilir.
+
+
+string ve int:
+  Bu hafta string ve int türlerini gördük.
+  string, bir karakter dizisini; int, bir tamsayıyı (integer) ifade eder.
+  Python'da stringler kod içinde tek (') veya çift (") tırnak içine alınan karakterlerle ifade edilebilir.
+  input() fonksiyonu da kullanıcıdan bilgiyi string olarak alır.
+
+  string örnekleri: 'string', '15', "merhaba", ''
+  int örnekleri: 15, 0, -100
+
+Yorumlar:
+  Python ile yazılmış kodlarda diyez (#) işareti bulunduğu satırın sonuna kadar olan kısmın yorum olduğunu belirtir.
+  Yorum olan kısımlar, kod çalışırken bilgisayar tarafından dikkate alınmaz.
+  Yorumlar, koda açıklık getirmek veya kod içine not almak amacıyla kullanılabilir.
+
+
+Değişken türleri arasında dönüşümler:
+  Bir int, bir string olarak da ifade edilebilir.
+  Ama her string, bir int değildir.
+  Bu dönüşümleri input() fonksiyonu ile aldığımız değeri int'e çevirmek için sıklıkla kullanacağız.
+
+  Örnek:
+    x = 5
+    y = str(x) # x "5" olur, ama string olarak
+  Örnek 2:
+    x = '5'
+    y = int(x) # y "5" olur, ama int olarak
+  Örnek 3:
+    x = 'abc'
+    y = int(x) # Hata verir
+
+
+print() fonksiyonu:
+  print fonksiyonu, kendisine verilen parametreleri aralarına birer boşluk bırakarak ekrana basar.
+
+  Örnekler:
+    print('merhaba') # Ekrana "merhaba" yazar
+    print('Merhaba', 'Kartal!') # Ekrana "Merhaba Kartal!" yazar
+    print(15) # Ekrana "15" yazar
+    print('Yasiniz', 26) # Ekrana "Yasiniz 26" yazar
+    print(2, 'ekmek aldim.', 'Eve gidiyorum.') # Ekrana "2 ekmek aldim. Eve gidiyorum." yazar
+
+
+string sabitler içinde kesme işareti kullanımı:
+  Python ile yazılmış kodlarda string sabitleri tırnak (") veya kesme (') işareti içine alınarak ifade edilir.
+  Eğer string sabitlerinin içinde bu işaretleri kullanmak istersek, bu işaretleri backslash (\) ile "escape" edebiliriz.
+  Ekrana backslash (\) yazmak istersek, bu backslash'ı başka bir backslash ile escape edebiliriz.
+
+  Örnekler:
+    print('3\'uncu sayi: ', 15) # Ekrana "3'uncu sayi 15" yazar
+    print('Bak: \\\'') # Ekrana "Bak: \'" yazar
+
+
+input() fonksiyonu:
+  Kullanıcıdan veri alır.
+  Kullanıcı enter'a basana kadar yazdığı karakterleri, bir string olarak döndürür.
+
+  Örnekler:
+    x = input() # Diyelim ki kullanıcı "merhaba" yazdı ve enter'a bastı
+    # x'in değeri artık "merhaba"
+    print(x) # Ekrana "merhaba" yazar
+
+
+int'ler ile matematiksel işlemler:
+  +, -, *, / işlemleri matematikteki gibi.
+  // işlemi, bölmeyi yapar, sonuç tamsayı değil ise sonucu kendisinden küçük en büyük tamsayıya yuvarlar.
+  % işlemi, kendisinden önce gelen sayıyı, kendisinden sonra gelen sayıya böler; kalanı bulur.
+  ** işlemi üs hesaplar.
+  +=, -= kendilerinden önce gelen değişkeni kendilerinden sonra gelen sayı kadar arttırır, azaltır.
+  *=, /= operatörleri kendilerinden önce gelen değişkeni kendilerinden sonra gelen sayı ile çarpar, böler.
+
+  Örnekler:
+    print(2**3) # Ekrana 8 yazar
+    print(3/2) # Ekrana 1.5 yazar
+    print(3//2) # Ekrana 1 yazar
+    print(7%3) # Ekrana 1 yazar
+    print((2-3)*6) # Ekrana -6 yazar
+
+  Örnek 2:
+    x = 5
+    x += 7
+    print(x) # Ekrana 12 yazar
+
+
+string'ler ile işlemler:
+  Python'da iki string toplanabilir, bir string ile bir tamsayı (int) çarpılabilir.
+
+  Örnekler:
+    print(2*'kartal') # Ekrana "kartalkartal" yazar
+    print('Merhaba' + 'dunya!') # Ekrana "Merhaba dunya!" yazar
+    print(2*('a'+'b')) # Ekrana "abab" yazar
+
+
+if:
+  Programın akışını bir şarta bağlı olarak değiştirir.
+  Bir alt satırdan itibaren kendisi ile aynı hizada veya kendisinden daha solda olan ilk satıra kadar olan kısım if'in "içinde"dir. Bu kısım ancak ve ancak if'in şartı doğru ise çalışır.
+  
+  Örnek:
+  x = input()
+  if x == 'merhaba':
+    print('Sana da merhaba!') # Kullanıcı "merhaba" yazarsa ekrana "Sana da merhaba!" yazar.
+
+
+else:
+  Her if'e karşılık gelen bir else ifadesi olabilir.
+  else "içinde" kalan kısım, if'in şartı doğru değil ise çalışır.
+
+  Örnek:
+    x = input()
+    if x == 'kartal':
+      print('Merhaba kartal') # Kullanıcı "kartal" yazarsa bu satır çalışır.
+    else:
+      print('Merhaba yabanci') # Diğer tüm durumlarda bu satır çalışır.
+
+
+Mantıksal operatörler:
+  if şartı içinde mantıksal operatörler kullanılabilir.
+  Derste "and", "or" ve "not" operatörleri anlatıldı.
+  Bu operatörler, gerektiğinde parantezlenerek de kullanılabilir.
+
+  Örnek:
+    x = int(input())
+    if x<5 or x>10:
+      print('Girilen sayi 5 ile 10 arasinda degil')
+    else:
+      print('Girilen sayi 5 ile 10 arasinda')
+
+  Örnek 2:
+    x = int(input())
+    if not (x%2==0 or x%3==0):
+      print('Girilen sayi 2 veya 3 ile bölünmüyor')
+
+Karşılaştırma operatörleri:
+  int'lar üzerinde <, >, <=, >=, == operatörleri tanımlıdır.
+  
+  < ve > operatörleri, sırasıyla sağ taraflarında kalan sayının sol taraflarında kalan sayıdan küçük/büyük olup olmadığını kontrol ederler.
+  <= ve >= operatörleri, ek olarak eşitlik de kontrol eder.
+  == operatörü, sadece eşitlik kontrol eder.
+
+  Örnek:
+    x = int(input(x))
+    if x <= 7:
+      print('x 7\'den kucuk veya 7\'ye esit')
+    if x == 7:
+      print('x tam olarak 7')
+
+
+İç içe if'ler:
+  Bir if içine başka if/ifler yazılabilir.
+
+  Örnek:
+    x = int(input(x))
+    if x < 100:
+      print('x 100\'den kucuk')
+      if x < 50:
+        print('x 50\'den de kucuk')
+      else:
+        print('x 50 ile 100 arasinda')
+    else:
+      print('x 100\'den buyuk veya 100\'e esit')
+
+for:
+  Python'da for'un geniş kullanım alanları var. İlk haftaki derste sadece range() fonksiyonu ile kullandık.
+  
+  Örnek:
+    for i in range(10):
+      print(i) # Ekrana 0'dan 9'a kadar olan tamsayıları yazar
+
+  Örnek 2:
+    toplam = 0
+    for i in range(5):
+      toplam += i
+    print(toplam) # Ekrana 10 yazar (0+1+2+3+4)

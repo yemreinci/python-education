@@ -33,7 +33,7 @@ Değişken türleri arasında dönüşümler:
     y = str(x) # x "5" olur, ama string olarak
   Örnek 2:
     x = '5'
-    y = int(x) # y "5" olur, ama int olarak
+    y = int(x) # y 5 olur, ama int olarak
   Örnek 3:
     x = 'abc'
     y = int(x) # Hata verir

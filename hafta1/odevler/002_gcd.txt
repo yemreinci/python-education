@@ -1,0 +1,8 @@
+Girilen iki sayinin ebob (en büyük ortak bölen) ini hesaplayan programı yazınız.
+
+Ornek Input
+12
+18
+
+Ornek Output
+6

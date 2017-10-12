@@ -1,0 +1,7 @@
+Girilen sayinin faktoriyelini hesaplayan bir program yaziniz.
+
+Ornek Input
+5
+
+Ornek Output
+120

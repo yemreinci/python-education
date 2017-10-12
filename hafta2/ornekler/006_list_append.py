@@ -5,11 +5,11 @@
 l = []
 
 while True:
-  x = int(input())
-  if x == 0:
-    break
-  l.append(x) # Bu komutla 'l' listesinin sonuna x'i ekliyoruz. Listenin eleman sayısı bir artıyor.
+    x = int(input())
+    if x == 0:
+        break
+    l.append(x)  # Bu komutla 'l' listesinin sonuna x'i ekliyoruz. Listenin eleman sayısı bir artıyor.
 
 print('Girdiginiz sayilar (tersten): ')
-for i in reversed(l): # 'reversed' fonksiyonu, kendisine verilen list'i tersine çevirir.
-  print(i)
+for i in reversed(l):  # 'reversed' fonksiyonu, kendisine verilen list'i tersine çevirir.
+    print(i)

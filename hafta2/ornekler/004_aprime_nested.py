@@ -4,12 +4,12 @@
 
 n = int(input())
 for x in range(2, n):
-  divider = 0
+    divider = 0
 
-  for i in range(2, x):
-    if x % i == 0:
-      divider = i
-      break
+    for i in range(2, x):
+        if x % i == 0:
+            divider = i
+            break
 
-  if divider == 0:
-    print(x, 'Asal')
+    if divider == 0:
+        print(x, 'Asal')

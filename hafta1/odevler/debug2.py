@@ -3,7 +3,7 @@
 isim = input('Bir isim girin: ')
 
 if not isim == 'kartal' or isim == 'yunus':
-  print('Yabanci')
+    print('Yabanci')
 else:
-  print('Tanidik')
+    print('Tanidik')
 

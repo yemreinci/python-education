@@ -5,7 +5,6 @@
 sum = 0
 
 while True:
-  x = int(input())
-  sum += x
-  print(sum)
-  
+    x = int(input())
+    sum += x
+    print(sum)

@@ -6,11 +6,11 @@ x = int(input())
 divider = 0
 
 for i in range(2, x):
-  if x % i == 0:
-    divider = i
-    break
+    if x % i == 0:
+        divider = i
+        break
 
 if divider == 0:
-  print('Asal')
+    print('Asal')
 else:
-  print('Asal degil, ', divider, '\'a bolunuyor.')
+    print('Asal degil, ', divider, '\'a bolunuyor.')

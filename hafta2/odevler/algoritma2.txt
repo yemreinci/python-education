@@ -1,0 +1,23 @@
+Kullanıcının girdiği liste içindeki her farklı elemanı bir defa yazdırın.
+Kullanıcı 0 girdiğinde girdi almayı bitirin.
+
+------------
+
+Örnek girdi 1:
+
+5
+6
+1
+5
+kartal
+yunus
+kartal
+0
+
+Örnek çıktı 1:
+
+5
+6
+1
+kartal
+yunus

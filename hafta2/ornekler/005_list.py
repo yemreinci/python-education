@@ -30,7 +30,7 @@ print(l[-1]) # Ekrana 'boun' yazar
 print(l[-2]) # Ekrana '14' yazar
 print('-----------')
 
-# index operatorune bir aralik da verebilirsiniz. Bu durumda verdiginiz araliktaki tum elemeanlari
+# index operatorune bir aralik da verebilirsiniz. Bu durumda verdiginiz araliktaki tum elemanlari
 #  baska bir liste seklinde elde edersiniz
 # bir baska ifadeyle liste yi 'slice' etmis olursunuz
 
@@ -38,10 +38,14 @@ print(l[0: 2]) # Ekrana [1, 5] yazar
 print(l[1: 4]) # Ekrana [5, 14, 'boun'] yazar
 print(l[2: ]) # araligin 2. paramtresini vermezseniz otomatik olarak listenin sonuna kadar olan elemanlari alir
 print(l[: 3]) # aralin ilk parametresini vermezseniz orada 0 yaziyormus gibi kabul eder
+print('-----------')
 
-# listeler uzerinde bazi islemler:
+# len fonksiyonunu kullanarak bir listenin içindeki eleman sayısını elde edebilirsiniz.
 
-print(len(l)) # len listenin uzunlugunu verir
-print(l + ['aa', 4.5]) # + islemi listeleri yan yana ekler
+print(len(l)) # Ekrana '4' yazar
+
+# + operatörü, stringlerde olduğu gibi listeleri de yan yana ekler
+
+print(l + ['aa', 4.5]) # Ekrana [1, 5, 14, 'boun', 'aa', 4.5] yazar
 
 

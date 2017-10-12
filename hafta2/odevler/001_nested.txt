@@ -1,0 +1,21 @@
+Kullanıcının girdiği listenin elemanları arasındaki tüm kombinasyonları yazdırın.
+Kullanıcı 0 girdiğinde girdi almayı bitirin.
+
+------------------
+
+Örnek girdi 1:
+
+5
+kartal
+3
+yunus
+0
+
+Örnek çıktı 1:
+
+5 kartal
+5 3
+5 yunus
+kartal 3
+kartal yunus
+3 yunus

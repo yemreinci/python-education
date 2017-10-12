@@ -1,0 +1,31 @@
+while:
+  while döngüsü, kendisinden sonra yazılan şart sağlanıyorsa içindeki kodu çalıştırır, içindeki kod bittikten sonra şartı tekrar kontrol eder, şart hala sağlanıyorsa tekrar çalıştırır, bu böyle devam eder.
+
+  Örnek:
+
+    i = 0
+    while i < 5:
+      print(i)
+      i = i+1 # Ekrana [0, 5) aralığındaki sayıları ayrı satırlarda yazar.
+
+break:
+  break komutu, çalışan en derin döngüyü bitirir
+
+  Örnek:
+
+    for i in range(2):
+      for j in range(5):
+        if j == 2:
+          break
+        print(i, j)
+  Örnek çıktı:
+  
+    0 0
+    0 1
+    1 0
+    1 1
+
+list:
+  list veri yapısı, içinde bir miktar veri saklar.
+  Bir list'in içinde tuttuğu veriler for döngüsü ile gezilebilir.
+  list'in içindeki elemanlar sıralı olarak tutulur. Her elemanın bir 'indis'i vardır. İlk elemanın indisi 0'dır.

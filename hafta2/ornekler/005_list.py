@@ -15,7 +15,7 @@ print('-----------')
 # Bir list'in içerdiği elemanları for ile gezebiliriz.
 
 for i in l:
-  print(i*2)
+    print(i*2)
 print('-----------')
 
 # index operatörünü ([]) kullanarak listenin belirli bir elemanına erişebiliriz.

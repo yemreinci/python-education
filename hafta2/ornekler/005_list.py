@@ -25,6 +25,7 @@ print(l[0]) # Ekrana '1' yazar
 print('-----------')
 
 # index operatörüne negatif indis de verebiliriz. Bu durumda python saymaya tersten başlar.
+# index operatörüne -1 vermek, listenin son elemanına erişmek için özellikle kullanışlıdır.
 
 print(l[-1]) # Ekrana 'boun' yazar
 print(l[-2]) # Ekrana '14' yazar

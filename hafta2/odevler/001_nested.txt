@@ -1,4 +1,4 @@
-Kullanıcının girdiği listenin elemanları arasındaki tüm kombinasyonları yazdırın.
+Kullanıcının girdiği listenin elemanları arasındaki tüm ikili kombinasyonları yazdırın.
 Kullanıcı 0 girdiğinde girdi almayı bitirin.
 
 ------------------

@@ -1,8 +1,8 @@
-# bu program kullanici '.' girene kadar kullanicidan kelimeler alir.
-# daha sonra kullanici bir kelime daha girer ve bu kelimeyi daha once kac kere daha yazdigni soyler
+# Bu program kullanici '.' girene kadar kullanicidan kelimeler alir.
+# Daha sonra kullanici bir kelime daha girdiginde, program bu kelimenin daha once kac defa girildigini ekrana yazar.
 
 """
-ornek girdi
+ornek girdi:
 
 ali
 kartal
@@ -18,7 +18,7 @@ ornek cikti
 3
 """
 
-d = {} # bod bir dictionary tanimliyoruz
+d = {} # bos bir dictionary tanimliyoruz
 
 while True:
     x = input()

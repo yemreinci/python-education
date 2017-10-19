@@ -1,0 +1,29 @@
+Bu hafta ilk konumuz "dokümantasyon okumak" idi.
+
+Python dilinin resmi sitesi python.org
+Bu sayfada bol miktarda dokümantasyon ve örnek var: https://docs.python.org/3.5/library/stdtypes.html
+Örneðin derslerde dict ve list veri yapýlarýyla alakalý örnekler verdik, ancak aslýnda bu türlerin teker teker örnek veremeyeceðimiz kadar çok fonksiyonlarý var.
+Var olduðunu bildiðiniz ama adýný hatýrlayamadýðýnýz fonksiyonlar için de dokümantasyonu okumak iyi bir seçim olabilir.
+
+randrange:
+  0 ile kendisine verilen parametre arasýnda rastgele bir tamsayý seçer.
+  random paketi içinde bulunur. Bu yüzden kullanmadan önce 'import' etmemiz gerekir:
+    from random import randrange
+  Bu fonksiyonun baþka seçenekleri de var. Örneðin range'de olduðu gibi 0'dan baþka bir sayýdan baþlayabilir.
+  Detaylarý için dokümantasyonu okuyabilirsiniz:
+    https://docs.python.org/3/library/random.html#random.randrange
+
+dict:
+  Python'da hazýr bulunan bir veri yapýsýdýr. Ýçinde (key, value) çiftleri tutar. Her key'i bir value'ye map eder.
+  Ýçinde belirli bir key'e karþýlýk gelen (o key'e map edilmiþ) bir value olup olmadýðýný, varsa deðerini elde edebiliriz.
+  Program çalýþýrken içine yeni çiftler ekleyebilir, var olan çiftleri silebilir, halihazýrda var olan bir key'e karþýlýk gelen value'yu deðiþtirebiliriz.
+  Daha ayrýntýlý bilgi için örneklere bakabilir veya dokümantasyonu okuyabilirsiniz:
+    https://docs.python.org/3.5/library/stdtypes.html#mapping-types-dict
+
+Fonksiyonlar:
+  Þimdiye kadar kendimiz hiç yeni fonksiyon yazmadýk, sadece Python içinde hazýr gelen fonksiyonlarý kullandýk.
+  Bu hafta ilk fonksiyonlarýmýzý yazdýk. Bu fonksiyonlar biraz anlamsýz (veya gereksiz?) olsalar da, ileride yazacaðýmýz daha uzun kodlarý kolayca anlayabileceðimiz (ve debug edebileceðimiz) küçük parçalara bölmek için fonksiyonlarý kullanacaðýz.
+
+  Fonksiyonlar, ismi olan kod öbekleridir. Belirli amaçlarý vardýr. Bir kuruluþun yönetiminde olan hiyerarþi gibi, yazdýðýmýz kod da yapacaklarýný bir fonksiyon hiyerarþisi þeklinde ifade edebilir.
+  Fonksiyonlar 'çaðýrýlýrlar'. Bir fonksiyonu çaðýrdýðýmýzda, programýn akýþý çaðýrdýðýmýz fonksiyonun baþýna zýplar. Çaðýrdýðýmýz fonksiyon da baþka fonksiyonlarý çaðýrabilir. Nihayet bizim çaðýrdýðýmýz fonksiyon 'dönünce' programýn akýþý, fonksiyonun çaðýrýldýðý yere geri döner.
+  Fonksiyonlar parametre alabilir ve deðer döndürebilir.

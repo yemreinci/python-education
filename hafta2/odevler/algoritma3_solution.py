@@ -9,12 +9,12 @@ while True:
     a.append(x)
 
 for i in range(len(a)):
-    for j in range(i+1, len(a)):
-        if a[j] < a[i]:
-            t = a[i]
-            a[i] = a[j]
-            a[j] = t
+    mn = 0
 
+    for j in range(len(a)):
+        if a[j] < a[mn]:
+            mn = j
 
-for x in a:
-    print(x)
+    print(a[mn])
+
+    del a[mn]

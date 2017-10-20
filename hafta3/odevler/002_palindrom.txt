@@ -1,0 +1,49 @@
+Kullanýcýnýn girdiði listenin palindromik olup olmadýðýný kontrol edin.
+Kullanýcý 0 girdiðinde girdi almayý bitirin.
+
+---------------
+
+Örnek girdi 1:
+
+1
+3
+5
+3
+1
+0
+
+Örnek çýktý 1:
+
+Evet
+
+---------------
+
+Örnek girdi 2:
+
+kartal
+1
+yunus
+mehmet
+mehmet
+yunus
+1
+kartal
+0
+
+Örnek çýktý 2:
+
+Evet
+
+---------------
+
+Örnek girdi 3:
+
+1
+3
+boun
+5
+0
+
+Örnek çýktý 3:
+
+Hayir

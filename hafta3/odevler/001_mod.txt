@@ -1,0 +1,51 @@
+Kullanıcının girdiği sayı dizisi içinde en çok tekrar edilen sayıyı ekrana yazın.
+En çok defa tekrar edilen birden çok sayı varsa herhangi birini yazdırabilirsiniz.
+Kullanıcı 0 girdiğinde girdi almayı bitirin.
+
+---------------
+
+Örnek girdi 1:
+
+5
+3
+8
+1
+8
+2
+0
+
+Örnek çıktı 1:
+8
+
+---------------
+
+Örnek girdi 2:
+
+
+6
+1
+4
+1
+7
+7
+8
+1
+0
+
+Örnek çıktı 2:
+
+1
+
+---------------
+
+Örnek girdi 3:
+
+5
+5
+7
+7
+0
+
+Örnek çıktı 3:
+
+5

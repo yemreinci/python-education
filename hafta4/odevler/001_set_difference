@@ -1,0 +1,38 @@
+Kullanıcı iki kume giriyor. Ilk kumede bulundugu halde ikinci kumede bulunmayan elemanlari yazdirin.
+Her iki kumenin de sonu 0 ile belirtilir. Elemanlarin sirasi onemsizdir.
+
+-----------
+
+Ornek girdi 1:
+
+3
+1
+5
+0
+5
+3
+0
+
+Ornek cikti 1:
+
+1
+
+-----------
+
+Ornek girdi 2:
+
+6
+9
+3
+2
+4
+0
+9
+6
+0
+
+Ornek cikti 2:
+
+3
+2
+4
